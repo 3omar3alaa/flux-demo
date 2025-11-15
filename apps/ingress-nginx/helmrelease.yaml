@@ -31,3 +31,7 @@ spec:
         default: true
       service:
         type: LoadBalancer
+      admissionWebhooks:
+        enabled: false
+        patch:
+          enabled: false
